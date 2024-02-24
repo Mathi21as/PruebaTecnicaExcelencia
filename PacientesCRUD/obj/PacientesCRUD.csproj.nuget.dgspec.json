@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roman\\Documentos\\workspace\\PacientesCRUD\\PacientesCRUD\\PacientesCRUD.csproj": {}
+    "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\PacientesCRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roman\\Documentos\\workspace\\PacientesCRUD\\PacientesCRUD\\PacientesCRUD.csproj": {
+    "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\PacientesCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roman\\Documentos\\workspace\\PacientesCRUD\\PacientesCRUD\\PacientesCRUD.csproj",
+        "projectUniqueName": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\PacientesCRUD.csproj",
         "projectName": "PacientesCRUD",
-        "projectPath": "C:\\Users\\roman\\Documentos\\workspace\\PacientesCRUD\\PacientesCRUD\\PacientesCRUD.csproj",
+        "projectPath": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\PacientesCRUD.csproj",
         "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roman\\Documentos\\workspace\\PacientesCRUD\\PacientesCRUD\\obj\\",
+        "outputPath": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

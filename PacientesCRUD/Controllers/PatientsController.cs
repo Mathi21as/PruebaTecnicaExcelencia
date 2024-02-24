@@ -4,8 +4,6 @@ using PacientesCRUD.Models;
 
 namespace PruebaTecnica.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
     public class PatientsController : Controller
     {
         private PatientDatabaseContext _patientDatabaseContext;
@@ -18,8 +16,8 @@ namespace PruebaTecnica.Controllers
 
         public ActionResult GetPatients()
         {
-            var result = _patientDatabaseContext.Patients.Select(c=>c.ToDto()).ToList();
-            return new OkObjectResult(result);
+            List<PatientEntity> result = _patientDatabaseContext.Patients.Select(c=>c).ToList();
+            return View(result);
         }
 
         public ActionResult GetPatient(long id)
@@ -44,7 +42,7 @@ namespace PruebaTecnica.Controllers
         public ActionResult CreatePatient(CreatePatientDto createPatient)
         {
             PatientEntity patientEntityCreated = _patientDatabaseContext.Create(createPatient);
-            return new CreatedResult($"https://localhost:7030/api/patients/{patientEntityCreated.id}", null);
+            return View(patientEntityCreated);
         }
 
         [HttpPut]

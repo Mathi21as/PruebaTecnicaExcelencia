@@ -1,0 +1,20 @@
+﻿@model List<PacientesCRUD.Models.PatientEntity>
+@{
+    ViewData["Title"] = "GetPatients";
+}
+
+
+<h1>this is the patients page</h1>
+@foreach (PacientesCRUD.Models.PatientEntity patientEntity in Model)
+{
+    <p>@patientEntity.id</p>
+    <p>@patientEntity.name</p>
+    <p>@patientEntity.lastname</p>
+    <p>@patientEntity.dni</p>
+    <p>@patientEntity.phone</p>
+    <p>@patientEntity.address</p>
+    <hr />
+}
+
+
+
