@@ -1,6 +1,4 @@
-﻿using PacientesCRUD.Dtos;
-
-namespace PacientesCRUD.Models
+﻿namespace PacientesCRUD.Models
 {
     public class PatientEntity
     {
@@ -18,19 +16,5 @@ namespace PacientesCRUD.Models
 
         public string dni { get; set; }
 
-
-        public PatientDto ToDto()
-        {
-            return new PatientDto()
-            {
-                Id = id,
-                Name = name,
-                Lastname = lastname,
-                Email = email,
-                Phone = phone,
-                Address = address,
-                Dni = dni
-            };
-        }
     }
 }

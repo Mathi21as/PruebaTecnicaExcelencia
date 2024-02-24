@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using PacientesCRUD.Dtos;
+using PacientesCRUD.Mappers;
 using PacientesCRUD.Models;
 
 namespace PruebaTecnica.Controllers
@@ -7,57 +8,104 @@ namespace PruebaTecnica.Controllers
     public class PatientsController : Controller
     {
         private PatientDatabaseContext _patientDatabaseContext;
+        private MapEntityToDto mapEntityToDto = new MapEntityToDto();
 
         public PatientsController(PatientDatabaseContext patientDatabaseContext)
         {
             _patientDatabaseContext = patientDatabaseContext;
         }
 
-
-        public ActionResult GetPatients()
+        [HttpGet]
+        public ActionResult GetAll()
         {
-            List<PatientEntity> result = _patientDatabaseContext.Patients.Select(c=>c).ToList();
+            List<PatientDto> result = _patientDatabaseContext.Patients.Select(p => mapEntityToDto.Patient(p)).ToList();
             return View(result);
         }
 
-        public ActionResult GetPatient(long id)
+        [HttpGet]
+        public ActionResult Get(long id)
         {
-            PatientEntity patientDto = _patientDatabaseContext.GetById(id);
+            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.GetById(id));
             if (patientDto == null)
-                return new NotFoundObjectResult("No se encontro el id solicitado");
+                return View();
             return View(patientDto);
         }
 
-        public ActionResult GetPatientByLastname(string lastname)
+        [HttpGet]
+        public ActionResult GetByLastname()
         {
-            PatientEntity patientDto = _patientDatabaseContext.GetByLastname(lastname);
-            if (patientDto == null)
-            {
-                return new NotFoundObjectResult("No se encontro un paciente con el apellido: " + lastname);
-            }
-            return new OkObjectResult(patientDto);
+            return View();
         }
 
         [HttpPost]
-        public ActionResult CreatePatient(CreatePatientDto createPatient)
+        public ActionResult GetByLastname(string lastname)
         {
-            PatientEntity patientEntityCreated = _patientDatabaseContext.Create(createPatient);
-            return View(patientEntityCreated);
+            List<PatientEntity> patientsEntity = _patientDatabaseContext.Patients.Where(p => p.lastname == lastname).ToList();
+            List<PatientDto> patientsDto = mapEntityToDto.Patient(patientsEntity);
+            if (patientsDto == null)
+            {
+                return new NotFoundObjectResult("No se encontro un paciente con el apellido: " + lastname);
+            }
+            return View(patientsDto);
         }
 
-        [HttpPut]
-        public ActionResult UpdatePatient(PatientDto patientDto)
+        [HttpGet]
+        public ActionResult Create()
         {
-            PatientEntity patientEntity = _patientDatabaseContext.Update(patientDto);
-
-            return new OkObjectResult(patientEntity);
+            return View();
         }
 
-        [HttpDelete]
-        public ActionResult DeletePatient(PatientDto patientDto)
+        [HttpPost]
+        public ActionResult Create(CreatePatientDto createPatient)
+        {
+            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.Create(createPatient));
+            if (patientDto == null)
+            {
+                return RedirectToAction("Error", "Patients", new { message = "Error al crear paciente." });
+            }
+            return RedirectToAction("GetPatients", "Patients");
+        }
+
+        [HttpGet("get/{id}")]
+        public ActionResult Update(long id)
+        {
+            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.GetById(id));
+            return View(patientDto);
+        }
+
+        [HttpPost]
+        public ActionResult Update(PatientDto patientDto)
+        {
+            PatientDto patientDtoResult = mapEntityToDto.Patient(_patientDatabaseContext.Update(patientDto));
+            if (patientDtoResult == null)
+            {
+                return RedirectToAction("Error", "Patients", new { message = "Error al actualizar paciente" });
+            }
+            return RedirectToAction("GetPatients", "Patients");
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult DeleteGet(long id)
+        {
+            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.GetById(id));
+            return View(patientDto);
+        }
+
+        [HttpPost]
+        public ActionResult Delete(PatientDto patientDto)
         {
             bool result = _patientDatabaseContext.Delete(patientDto);
-            return new OkObjectResult(result);
+
+            if (result)
+                return RedirectToAction("GetAll", "Patients");
+            return RedirectToAction("Error", "Patients", new { message = "Ocurrio un error al eliminar el paciente." });
+        }
+
+        [HttpGet]
+        public ActionResult Error(string message)
+        {
+            ViewData["Message"] = message;
+            return View();
         }
     }
 }

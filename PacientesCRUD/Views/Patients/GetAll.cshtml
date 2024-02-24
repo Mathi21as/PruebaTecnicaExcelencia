@@ -1,0 +1,50 @@
+﻿@model List<PacientesCRUD.Dtos.PatientDto>
+@{
+    ViewData["Title"] = "GetAll";
+}
+
+<div class="row mt-5">
+    <div class="col-12">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3>Pacientes</h3>
+            </div>
+            <div class="panel-body">
+                <a class="btn btn-success justify-content-end" href="@Url.Action("Create", "Patients")">Ingresar paciente</a>
+                <hr/>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>DNI</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                                <th>Dirección</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (PacientesCRUD.Dtos.PatientDto patientDto in Model)
+                            {
+                                <tr>
+                                    <th>@patientDto.Name</th>
+                                    <th>@patientDto.Lastname</th>
+                                    <th>@patientDto.Dni</th>
+                                    <th>@patientDto.Email</th>
+                                    <th>@patientDto.Phone</th>
+                                    <th>@patientDto.Address</th>
+                                    <th>
+                                        <a class="btn btn-success" href="@Url.Action("Update", "Patients", new{ id = patientDto.Id })">Editar</a>
+                                        <a class="btn btn-danger" href="@Url.Action("DeleteGet", "Patients", new{ id = patientDto.Id })">Eliminar</a>
+                                    </th>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

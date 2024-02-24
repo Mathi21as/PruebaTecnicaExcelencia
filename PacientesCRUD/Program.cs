@@ -6,7 +6,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRouting(routing => routing.LowercaseUrls = true);
 builder.Services.AddDbContext<PatientDatabaseContext>(builder =>
 {
-    builder.UseMySql("server=localhost;port=3306;database=patientsdb;uid=root;password=root1234", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.35-mysql"));
+    builder.UseMySql($"server=localhost;port=3306;database=patientsdb;uid=root;password=root1234", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.35-mysql"));
 });
 
 var app = builder.Build();
@@ -27,6 +27,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Patients}/{action=GetAll}");
 
 app.Run();

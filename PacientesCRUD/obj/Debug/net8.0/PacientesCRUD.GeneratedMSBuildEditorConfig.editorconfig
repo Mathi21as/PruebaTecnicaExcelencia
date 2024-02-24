@@ -26,12 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\roman\Documentos\workspace\PruebaTecnicaExcelencia\PacientesCRUD
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/CreatePatient.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcQ3JlYXRlUGF0aWVudC5jc2h0bWw=
+[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/GetPatients.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcR2V0UGF0aWVudHMuY3NodG1s
+[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/DeleteGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcRGVsZXRlR2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/GetByLastname.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcR2V0QnlMYXN0bmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Patients/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/roman/Documentos/workspace/PruebaTecnicaExcelencia/PacientesCRUD/Views/Shared/Error.cshtml]

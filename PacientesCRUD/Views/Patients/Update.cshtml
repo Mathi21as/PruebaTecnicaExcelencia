@@ -1,0 +1,35 @@
+﻿@model PacientesCRUD.Dtos.PatientDto
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Editar paciente</h1>
+
+<form action="@Url.Action("Update","Patients")" method="post">
+    <input value="@Model.Id" class="visually-hidden" name="Id"/>
+    <div class="mb-3">
+        <label for="Name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" name="Name" id="Name" value="@Model.Name">
+    </div>
+    <div class="mb-3">
+        <label for="Lastname" class="form-label">Apellido</label>
+        <input type="text" class="form-control" name="Lastname" id="Lastname" value="@Model.Lastname">
+    </div>
+    <div class="mb-3">
+        <label for="Dni" class="form-label">DNI</label>
+        <input type="text" class="form-control" name="Dni" id="Dni" value="@Model.Dni">
+    </div>
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" name="Email" id="Email" value="@Model.Email">
+    </div>
+    <div class="mb-3">
+        <label for="Phone" class="form-label">Telefono</label>
+        <input type="text" class="form-control" name="Phone" id="Phone" value="@Model.Phone">
+    </div>
+    <div class="mb-3">
+        <label for="Address" class="form-label">Direccion</label>
+        <input type="text" class="form-control" name="Address" id="Address" value="@Model.Address">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

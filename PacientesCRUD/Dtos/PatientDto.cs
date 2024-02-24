@@ -16,6 +16,5 @@
 
         public string Dni { get; set; }
 
-
     }
 }

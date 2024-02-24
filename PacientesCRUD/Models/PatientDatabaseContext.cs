@@ -1,11 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using PacientesCRUD.Dtos;
+using PacientesCRUD.Mappers;
 
 namespace PacientesCRUD.Models
 {
     public class PatientDatabaseContext : DbContext
     {
+        private MapDtoToEntity mapDtoToEntity = new MapDtoToEntity();
         public PatientDatabaseContext(DbContextOptions<PatientDatabaseContext> options) : base(options)
         {
 
@@ -13,18 +15,18 @@ namespace PacientesCRUD.Models
 
         public DbSet<PatientEntity> Patients { get; set; }
 
-        public PatientEntity GetById(long id)
+        public PatientEntity? GetById(long id)
         {
             try
             {
                 PatientEntity patient = Patients.First(x => x.id == id);
                 return patient;
             }
-            catch (Exception ex) { return null; }
+            catch (Exception) { return null; }
 
         }
 
-        public PatientEntity GetByLastname(string lastname)
+        public PatientEntity? GetByLastname(string lastname)
         {
             
             try
@@ -32,22 +34,13 @@ namespace PacientesCRUD.Models
                 PatientEntity patient = Patients.First(x => x.lastname == lastname);
                 return patient;
             }
-            catch (Exception ex) { return null; }
+            catch (Exception) { return null; }
 
         }
 
-        public PatientEntity Create(CreatePatientDto patientDto)
+        public PatientEntity? Create(CreatePatientDto patientDto)
         {
-            PatientEntity patientEntity = new PatientEntity()
-            {
-                id = null,
-                name = patientDto.Name,
-                lastname = patientDto.Lastname,
-                dni = patientDto.Dni,
-                email = patientDto.Email,
-                phone = patientDto.Phone,
-                address = patientDto.Address
-            };
+            PatientEntity patientEntity = mapDtoToEntity.CreatePatient(patientDto);
             EntityEntry<PatientEntity> response = Patients.Add(patientEntity);
             SaveChanges();
             return GetById(response.Entity.id ?? throw new Exception("No se pudo crear el paciente"));
@@ -57,10 +50,7 @@ namespace PacientesCRUD.Models
         {
             PatientEntity patientEntity = Patients.First(x => x.id == patientDto.Id);
 
-            if (patientEntity == null)
-            {
-                return null;
-            }
+            
 
             patientEntity.name = patientDto.Name;
             patientEntity.lastname = patientDto.Lastname;
@@ -77,18 +67,10 @@ namespace PacientesCRUD.Models
 
         public bool Delete(PatientDto patientDto)
         {
-            PatientEntity patientEntity = new PatientEntity()
-            {
-                id = null,
-                name = patientDto.Name,
-                lastname = patientDto.Lastname,
-                dni = patientDto.Dni,
-                email = patientDto.Email,
-                phone = patientDto.Phone,
-                address = patientDto.Address
-            };
+            PatientEntity patientEntity = mapDtoToEntity.Patient(patientDto);
 
             Patients.Remove(patientEntity);
+            SaveChanges();
 
             return true;
         }
