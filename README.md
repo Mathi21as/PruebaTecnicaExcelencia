@@ -8,7 +8,12 @@ Es un sistema web de gestion de pacientes que permite ingresar, ver, actualizar 
 - ASP.NET MVC Framework
 - MySQL
 
-## Instalacion
+## Configurar credenciales de MySQL
+En la carpeta PacientesCRUD cree un archivo de texto llamado ".env.local". Luego agregue las credenciales de su base de datos con la siguiente sintaxis:
+```
+MYSQL_USER=tuusuario
+MYSQL_PASSWORD=tucontraseña
+```
 
 
 ## Datos
