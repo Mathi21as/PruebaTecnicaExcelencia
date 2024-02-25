@@ -63,6 +63,12 @@ namespace PacientesCRUD.Models
             patientEntity.email = patientDto.Email;
             patientEntity.dni = patientDto.Dni;
             patientEntity.phone = patientDto.Phone;
+            patientEntity.height = patientDto.Height;
+            patientEntity.weight = patientDto.Weight;
+            patientEntity.age = patientDto.Age;
+            patientEntity.isDrinker = patientDto.IsDrinker;
+            patientEntity.isSmooker = patientDto.IsSmooker;
+            patientEntity.blood = patientDto.Blood;
 
             Patients.Update(patientEntity);
             SaveChanges();

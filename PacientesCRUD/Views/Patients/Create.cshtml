@@ -10,29 +10,69 @@
 <h1>Crear paciente</h1>
 
 <form action="@Url.Action("Create","Patients")" method="post">
-    <div class="mb-3">
-        <label for="Name" class="form-label">Nombre</label>
-        <input type="text" class="form-control" name="Name" id="Name">
-    </div>
-    <div class="mb-3">
-        <label for="Lastname" class="form-label">Apellido</label>
-        <input type="text" class="form-control" name="Lastname" id="Lastname">
-    </div>
-    <div class="mb-3">
-        <label for="Dni" class="form-label">DNI</label>
-        <input type="text" class="form-control" name="Dni" id="Dni">
-    </div>
-    <div class="mb-3">
-        <label for="Email" class="form-label">Email</label>
-        <input type="email" class="form-control" name="Email" id="Email">
-    </div>
-    <div class="mb-3">
-        <label for="Phone" class="form-label">Telefono</label>
-        <input type="text" class="form-control" name="Phone" id="Phone">
-    </div>
-    <div class="mb-3">
-        <label for="Address" class="form-label">Direccion</label>
-        <input type="text" class="form-control" name="Address" id="Address">
+    <div class="d-flex flex-row flex-wrap gap-3">
+        <div class="mb-3 w-auto">
+            <label for="Name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="Name" id="Name">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Lastname" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="Lastname" id="Lastname">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Age" class="form-label">Edad</label>
+            <input type="number" class="form-control" name="Age" id="Age">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Dni" class="form-label">DNI</label>
+            <input type="text" class="form-control" name="Dni" id="Dni">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" id="Email">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Phone" class="form-label">Telefono</label>
+            <input type="text" class="form-control" name="Phone" id="Phone">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Address" class="form-label">Direccion</label>
+            <input type="text" class="form-control" name="Address" id="Address">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Height" class="form-label">Estatura</label>
+            <input type="text" class="form-control" name="Height" id="Height" placeholder="Ej: 1,74m">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Weight" class="form-label">Peso</label>
+            <input type="text" class="form-control" name="Weight" id="Weight" placeholder="Ej: 79kg">
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="Blood" class="form-label">Grupo sanguineo</label>
+            <select class="form-select" aria-label="Default select example" name="Blood" id="Blood">
+                <option selected>---Seleccione un tipo de sangre---</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="IsSmooker" class="form-label">Fuma?</label>
+            <select class="form-select" aria-label="Default select example" name="IsSmooker" id="IsSmooker">
+                <option selected>---Seleccione una opcion---</option>
+                <option value="@true">Si</option>
+                <option value="@false">No</option>
+            </select>
+        </div>
+        <div class="mb-3 w-auto">
+            <label for="IsDrinker" class="form-label">Bebe?</label>
+            <select class="form-select" aria-label="Default select example" name="IsDrinker" id="IsDrinker">
+                <option selected>---Seleccione una opcion---</option>
+                <option value="@true">Si</option>
+                <option value="@false">No</option>
+            </select>
+        </div>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

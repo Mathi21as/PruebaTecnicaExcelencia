@@ -15,7 +15,13 @@ namespace PacientesCRUD.Mappers
                 email = patientDto.Email,
                 phone = patientDto.Phone,
                 address = patientDto.Address,
-                dni = patientDto.Dni
+                dni = patientDto.Dni,
+                age = patientDto.Age,
+                height = patientDto.Height,
+                weight = patientDto.Weight,
+                isSmooker = patientDto.IsSmooker,
+                isDrinker = patientDto.IsDrinker,
+                blood = patientDto.Blood,
             };
         }
 
@@ -28,7 +34,13 @@ namespace PacientesCRUD.Mappers
                 email = patientDto.Email,
                 phone = patientDto.Phone,
                 address = patientDto.Address,
-                dni = patientDto.Dni
+                dni = patientDto.Dni,
+                age = patientDto.Age,
+                height = patientDto.Height,
+                weight = patientDto.Weight,
+                isSmooker = patientDto.IsSmooker,
+                isDrinker = patientDto.IsDrinker,
+                blood = patientDto.Blood,
             };
         }
     }

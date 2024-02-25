@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "Get";
+}
+
+<h1>Informacion del paciente</h1>
+
+<div class="d-flex flex-column gap-3 p-5">
+    <div class="w-100">
+        <p class="fs-2 w-max mx-auto">@Model.Name @Model.Lastname</p>
+    </div>
+    <div class="d-flex flex-row w-100 gap-3">
+        <div class="w-50">
+            <p class="w-max mx-auto fs-4">Informacion personal</p>
+            <table class="table w-100">
+                <tbody>
+                    <tr class="table-active">
+                        <td>Edad:</td>
+                        <td>@Model.Age</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>DNI:</td>
+                        <td>@Model.Dni</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>Telefono:</td>
+                        <td>@Model.Phone</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>Email:</td>
+                        <td>@Model.Email</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>Direccion:</td>
+                        <td>@Model.Address</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="w-50">
+            <p class="w-max mx-auto fs-4">Informacion clinica</p>
+            <table class="table w-100">
+                <tbody>
+                    <tr class="table-active">
+                        <td>Estatura:</td>
+                        <td>@Model.Height</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>Peso:</td>
+                        <td>@Model.Weight</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>Grupo sanguineo:</td>
+                        <td>@Model.Blood</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>Fuma:</td>
+                        <td>@Model.IsSmooker</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>Bebe:</td>
+                        <td>@Model.IsDrinker</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

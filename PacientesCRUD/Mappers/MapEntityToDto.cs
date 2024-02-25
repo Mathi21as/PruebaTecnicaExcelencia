@@ -18,7 +18,13 @@ namespace PacientesCRUD.Mappers
                 Email = patientEntity.email,
                 Phone = patientEntity.phone,
                 Address = patientEntity.address,
-                Dni = patientEntity.dni
+                Dni = patientEntity.dni,
+                Age = patientEntity.age,
+                Blood = patientEntity.blood,
+                Height = patientEntity.height,
+                Weight = patientEntity.weight,
+                IsDrinker = patientEntity.isDrinker,
+                IsSmooker = patientEntity.isSmooker,
             };
         }
     }

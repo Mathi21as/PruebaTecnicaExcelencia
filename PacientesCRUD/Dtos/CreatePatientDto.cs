@@ -22,5 +22,19 @@ namespace PacientesCRUD.Dtos
         [Required(ErrorMessage = "El DNI es obligatorio.")]
         public string Dni { get; set; }
 
+        [Required(ErrorMessage = "La edad es obligatoria.")]
+        public int Age { get; set; }
+
+        public string? Height { get; set; }
+
+        [Required(ErrorMessage = "El grupo sanguineo es obligatorio.")]
+        public string Blood { get; set; }
+
+        public string? Weight { get; set; }
+
+        public bool? IsSmooker { get; set; }
+
+        public bool? IsDrinker { get; set; }
+
     }
 }

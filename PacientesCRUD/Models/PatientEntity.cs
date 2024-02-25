@@ -16,5 +16,17 @@
 
         public string dni { get; set; }
 
+        public int age { get; set; }
+
+        public string? height { get; set; }
+
+        public string blood { get; set; }
+
+        public string? weight { get; set; }
+
+        public bool? isSmooker { get; set; }
+
+        public bool? isDrinker { get; set; }
+
     }
 }

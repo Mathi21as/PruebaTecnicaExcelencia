@@ -37,6 +37,7 @@
                                         <th>@patientDto.Phone</th>
                                         <th>@patientDto.Address</th>
                                         <th>
+                                            <a class="btn btn-success" href="@Url.Action("Get", "Patients", new{ id = patientDto.Id })">Detalles</a>
                                             <a class="btn btn-success" href="@Url.Action("Update", "Patients", new{ id = patientDto.Id })">Editar</a>
                                             <a class="btn btn-danger" href="@Url.Action("DeleteGet", "Patients", new{ id = patientDto.Id })">Eliminar</a>
                                         </th>
