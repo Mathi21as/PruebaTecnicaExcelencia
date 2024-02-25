@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\dotenv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\dotenv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\.env.local||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\.env.local||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\models\\patientdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\models\\patientdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,6 +67,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": ".env.local",
+              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\.env.local",
+              "RelativeDocumentMoniker": "PacientesCRUD\\.env.local",
+              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\.env.local",
+              "RelativeToolTip": "PacientesCRUD\\.env.local",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-25T05:11:08.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DotEnv.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\DotEnv.cs",
+              "RelativeDocumentMoniker": "PacientesCRUD\\DotEnv.cs",
+              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\DotEnv.cs",
+              "RelativeToolTip": "PacientesCRUD\\DotEnv.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T05:07:59.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "PacientesCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Program.cs",
+              "RelativeToolTip": "PacientesCRUD\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T00:20:07.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DeleteGet.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\DeleteGet.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\DeleteGet.cshtml",
@@ -66,12 +113,11 @@
               "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\DeleteGet.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T22:28:07.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T22:28:07.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Update.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Update.cshtml",
@@ -79,12 +125,11 @@
               "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Update.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T20:13:35.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T20:13:35.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
@@ -92,12 +137,11 @@
               "RelativeToolTip": "PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T18:13:41.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T18:13:41.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "GetByLastname.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetByLastname.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\GetByLastname.cshtml",
@@ -105,25 +149,11 @@
               "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\GetByLastname.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T17:11:50.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T17:11:50.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Program.cs",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Program.cs",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Program.cs",
-              "RelativeToolTip": "PacientesCRUD\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T00:20:07.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PatientsController.cs",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "PacientesCRUD\\Controllers\\PatientsController.cs",
@@ -131,12 +161,11 @@
               "RelativeToolTip": "PacientesCRUD\\Controllers\\PatientsController.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAAAkwGAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T21:05:42.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T21:05:42.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PatientDatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Models\\PatientDatabaseContext.cs",
               "RelativeDocumentMoniker": "PacientesCRUD\\Models\\PatientDatabaseContext.cs",
@@ -149,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Create.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Create.cshtml",
@@ -157,12 +186,11 @@
               "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T23:37:31.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T23:37:31.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GetAll.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
@@ -170,12 +198,11 @@
               "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T23:48:31.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T23:48:31.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Error.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Error.cshtml",
@@ -183,8 +210,7 @@
               "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T15:56:41.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T15:56:41.804Z"
             }
           ]
         }
