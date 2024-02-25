@@ -8,7 +8,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRouting(routing => routing.LowercaseUrls = true);
 builder.Services.AddDbContext<PatientDatabaseContext>(builder =>
 {
-    builder.UseMySql($"server=localhost;port=3306;database=patientsdb;uid={Environment.GetEnvironmentVariable("MYSQL_USER")};password={Environment.GetEnvironmentVariable("MYSQL_PASSWORD")}", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.35-mysql"));
+    builder.UseMySql($"server=localhost;port=3306;database=patientsdb;" +
+        $"uid={Environment.GetEnvironmentVariable("MYSQL_USER")};" +
+        $"password={Environment.GetEnvironmentVariable("MYSQL_PASSWORD")}", 
+        Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.35-mysql")
+    );
 });
 
 var app = builder.Build();

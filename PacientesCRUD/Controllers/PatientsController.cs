@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using PacientesCRUD.Dtos;
-using PacientesCRUD.Mappers;
 using PacientesCRUD.Models;
 
 namespace PruebaTecnica.Controllers
@@ -8,7 +7,6 @@ namespace PruebaTecnica.Controllers
     public class PatientsController : Controller
     {
         private PatientDatabaseContext _patientDatabaseContext;
-        private MapEntityToDto mapEntityToDto = new MapEntityToDto();
 
         public PatientsController(PatientDatabaseContext patientDatabaseContext)
         {
@@ -18,16 +16,28 @@ namespace PruebaTecnica.Controllers
         [HttpGet]
         public ActionResult GetAll()
         {
-            List<PatientDto> result = _patientDatabaseContext.Patients.Select(p => mapEntityToDto.Patient(p)).ToList();
+            List<PatientDto> result = _patientDatabaseContext.Patients.Select(p => new PatientDto
+            {
+                Id = p.id,
+                Name = p.name,
+                Lastname = p.lastname,
+                Email = p.email,
+                Phone = p.phone,
+                Address = p.address,
+                Dni = p.dni,
+            }).ToList();
+
             return View(result);
         }
 
         [HttpGet]
         public ActionResult Get(long id)
         {
-            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.GetById(id));
+            PatientDto patientDto = _patientDatabaseContext.GetById(id);
+
             if (patientDto == null)
                 return View();
+
             return View(patientDto);
         }
 
@@ -40,12 +50,21 @@ namespace PruebaTecnica.Controllers
         [HttpPost]
         public ActionResult GetByLastname(string lastname)
         {
-            List<PatientEntity> patientsEntity = _patientDatabaseContext.Patients.Where(p => p.lastname == lastname).ToList();
-            List<PatientDto> patientsDto = mapEntityToDto.Patient(patientsEntity);
+            List<PatientDto> patientsDto = _patientDatabaseContext.Patients.Where(p => p.lastname == lastname).Select(p => new PatientDto 
+            { 
+                Id = p.id,
+                Name = p.name,
+                Lastname = p.lastname,
+                Email = p.email,
+                Phone = p.phone,
+                Address = p.address,
+                Dni = p.dni,
+            })
+                .ToList();
+
             if (patientsDto == null)
-            {
                 return new NotFoundObjectResult("No se encontro un paciente con el apellido: " + lastname);
-            }
+
             return View(patientsDto);
         }
 
@@ -58,36 +77,36 @@ namespace PruebaTecnica.Controllers
         [HttpPost]
         public ActionResult Create(CreatePatientDto createPatient)
         {
-            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.Create(createPatient));
+            PatientDto patientDto = _patientDatabaseContext.Create(createPatient);
+
             if (patientDto == null)
-            {
                 return RedirectToAction("Error", "Patients", new { message = "Error al crear paciente." });
-            }
-            return RedirectToAction("GetPatients", "Patients");
+
+            return Redirect("/");
         }
 
         [HttpGet("get/{id}")]
         public ActionResult Update(long id)
         {
-            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.GetById(id));
+            PatientDto patientDto = _patientDatabaseContext.GetById(id);
             return View(patientDto);
         }
 
         [HttpPost]
-        public ActionResult Update(PatientDto patientDto)
+        public ActionResult UpdatePost(PatientDto patientDto)
         {
-            PatientDto patientDtoResult = mapEntityToDto.Patient(_patientDatabaseContext.Update(patientDto));
+            PatientDto patientDtoResult = _patientDatabaseContext.Update(patientDto);
+
             if (patientDtoResult == null)
-            {
-                return RedirectToAction("Error", "Patients", new { message = "Error al actualizar paciente" });
-            }
-            return RedirectToAction("GetPatients", "Patients");
+                return RedirectToAction("Error", "Patients", new { message = "Error al actualizar paciente. El paciente no se encuentra registrado en el sistema." });
+
+            return Redirect("/");
         }
 
         [HttpGet("{id}")]
         public ActionResult DeleteGet(long id)
         {
-            PatientDto patientDto = mapEntityToDto.Patient(_patientDatabaseContext.GetById(id));
+            PatientDto patientDto = _patientDatabaseContext.GetById(id);
             return View(patientDto);
         }
 
@@ -97,7 +116,8 @@ namespace PruebaTecnica.Controllers
             bool result = _patientDatabaseContext.Delete(patientDto);
 
             if (result)
-                return RedirectToAction("GetAll", "Patients");
+                return Redirect("/");
+
             return RedirectToAction("Error", "Patients", new { message = "Ocurrio un error al eliminar el paciente." });
         }
 

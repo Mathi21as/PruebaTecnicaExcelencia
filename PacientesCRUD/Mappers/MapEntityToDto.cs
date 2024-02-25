@@ -21,25 +21,5 @@ namespace PacientesCRUD.Mappers
                 Dni = patientEntity.dni
             };
         }
-
-        public List<PatientDto> Patient(List<PatientEntity> patient)
-        {
-            List<PatientDto> result = new List<PatientDto>();
-            foreach (PatientEntity patientEntity in patient) 
-            {
-                result.Add(new PatientDto()
-                {
-                    Id = patientEntity.id,
-                    Name = patientEntity.name,
-                    Lastname = patientEntity.lastname,
-                    Email = patientEntity.email,
-                    Phone = patientEntity.phone,
-                    Address = patientEntity.address,
-                    Dni = patientEntity.dni
-                });
-            }
-
-            return result;
-        }
     }
 }

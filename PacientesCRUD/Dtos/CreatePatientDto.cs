@@ -15,9 +15,9 @@ namespace PacientesCRUD.Dtos
             ErrorMessage = "El email no es valido.")]
         public string Email { get; set; }
 
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
 
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
         [Required(ErrorMessage = "El DNI es obligatorio.")]
         public string Dni { get; set; }
