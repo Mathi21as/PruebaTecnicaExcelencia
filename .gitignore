@@ -2,4 +2,4 @@
 .env*.local
 
 # bin
-bin*/Debug/net8.0
+**/bin
