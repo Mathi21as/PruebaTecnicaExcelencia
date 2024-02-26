@@ -1,2 +1,5 @@
 # local env files
 .env*.local
+
+# bin
+bin*/Debug/net8.0
