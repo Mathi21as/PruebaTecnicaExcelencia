@@ -55,11 +55,25 @@
                     </tr>
                     <tr class="table-active">
                         <td>Fuma:</td>
-                        <td>@Model.IsSmooker</td>
+                        @if (Model.IsSmooker)
+                        {
+                            <td>Si</td>
+                        }
+                        else
+                        {
+                            <td>No</td>
+                        }
                     </tr>
                     <tr class="table-active">
                         <td>Bebe:</td>
-                        <td>@Model.IsDrinker</td>
+                        @if (Model.IsDrinker)
+                        {
+                            <td>Si</td>
+                        }
+                        else
+                        {
+                            <td>No</td>
+                        }
                     </tr>
                 </tbody>
             </table>

@@ -7,72 +7,78 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    .width-45{
+        width: 45%;
+    }
+</style>
+
 <h1>Crear paciente</h1>
 
 <form action="@Url.Action("Create","Patients")" method="post">
-    <div class="d-flex flex-row flex-wrap gap-3">
-        <div class="mb-3 w-auto">
+    <div class="d-flex flex-row flex-wrap gap-4">
+        <div class="mb-3 width-45">
             <label for="Name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" name="Name" id="Name">
+            <input type="text" class="form-control" name="Name" id="Name" required>
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Lastname" class="form-label">Apellido</label>
-            <input type="text" class="form-control" name="Lastname" id="Lastname">
+            <input type="text" class="form-control" name="Lastname" id="Lastname" required>
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Age" class="form-label">Edad</label>
-            <input type="number" class="form-control" name="Age" id="Age">
+            <input type="number" class="form-control" name="Age" id="Age" required>
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Dni" class="form-label">DNI</label>
-            <input type="text" class="form-control" name="Dni" id="Dni">
+            <input type="text" class="form-control" name="Dni" id="Dni" required>
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Email" class="form-label">Email</label>
-            <input type="email" class="form-control" name="Email" id="Email">
+            <input type="email" class="form-control" name="Email" id="Email" required>
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Phone" class="form-label">Telefono</label>
             <input type="text" class="form-control" name="Phone" id="Phone">
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Address" class="form-label">Direccion</label>
             <input type="text" class="form-control" name="Address" id="Address">
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Height" class="form-label">Estatura</label>
             <input type="text" class="form-control" name="Height" id="Height" placeholder="Ej: 1,74m">
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Weight" class="form-label">Peso</label>
             <input type="text" class="form-control" name="Weight" id="Weight" placeholder="Ej: 79kg">
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="Blood" class="form-label">Grupo sanguineo</label>
             <select class="form-select" aria-label="Default select example" name="Blood" id="Blood">
-                <option selected>---Seleccione un tipo de sangre---</option>
+                <option selected disabled>---Seleccione un tipo de sangre---</option>
                 <option value="AB+">AB+</option>
                 <option value="AB-">AB-</option>
                 <option value="O+">O+</option>
                 <option value="O-">O-</option>
             </select>
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="IsSmooker" class="form-label">Fuma?</label>
             <select class="form-select" aria-label="Default select example" name="IsSmooker" id="IsSmooker">
-                <option selected>---Seleccione una opcion---</option>
-                <option value="@true">Si</option>
-                <option value="@false">No</option>
+                <option selected disabled>---Seleccione una opcion---</option>
+                <option value="true">Si</option>
+                <option value="false">No</option>
             </select>
         </div>
-        <div class="mb-3 w-auto">
+        <div class="mb-3 width-45">
             <label for="IsDrinker" class="form-label">Bebe?</label>
             <select class="form-select" aria-label="Default select example" name="IsDrinker" id="IsDrinker">
-                <option selected>---Seleccione una opcion---</option>
-                <option value="@true">Si</option>
-                <option value="@false">No</option>
+                <option selected disabled>---Seleccione una opcion---</option>
+                <option value="true">Si</option>
+                <option value="false">No</option>
             </select>
         </div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary mt-3 mx-auto w-max">Guardar</button>
 </form>

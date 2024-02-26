@@ -3,11 +3,11 @@
     ViewData["Title"] = "DeleteGet";
 }
 
-<h1>DeletePatient</h1>
+<h1 class="mx-auto w-25 text-center mb-4">Eliminar</h1>
 
 <form action="@Url.Action("Delete","Patients")" method="post">
     <div>
-        <h3>Eliminar al paciente @Model.Name @Model.Lastname?</h3>
+        <h3 class="mx-auto w-50 text-center">Eliminar al paciente @Model.Name @Model.Lastname?</h3>
     </div>
     <div class="visually-hidden">
         <input value="@Model.Id" name="Id" />
@@ -36,6 +36,8 @@
             <input type="text" class="form-control" name="Address" id="Address" value="@Model.Address">
         </div>
     </div>
-    <button type="submit" class="btn btn-danger">Eliminar</button>
-    <a class="btn" href="@Url.Action("GetAll", "Patients")">Cancelar</a>
+    <div class="text-center mt-3">
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a class="btn" href="@Url.Action("GetAll", "Patients")">Cancelar</a>
+    </div>
 </form>

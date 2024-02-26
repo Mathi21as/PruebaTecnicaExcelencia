@@ -3,33 +3,65 @@
     ViewData["Title"] = "Update";
 }
 
+<style>
+    .width-45 {
+        width: 45%;
+    }
+</style>
+
 <h1>Editar paciente</h1>
 
 <form action="@Url.Action("UpdatePost","Patients")" method="post">
-    <input value="@Model.Id" class="visually-hidden" name="Id"/>
-    <div class="mb-3">
-        <label for="Name" class="form-label">Nombre</label>
-        <input type="text" class="form-control" name="Name" id="Name" value="@Model.Name">
+    <div class="d-flex flex-row flex-wrap gap-4">
+        <input type="text" class="visually-hidden" name="Id" value="@Model.Id" readonly />
+        <div class="mb-3 width-45">
+            <label for="Name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="Name" id="Name" value="@Model.Name">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Lastname" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="Lastname" id="Lastname" value="@Model.Lastname">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Age" class="form-label">Edad</label>
+            <input type="number" class="form-control" name="Age" id="Age" value="@Model.Age">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Dni" class="form-label">DNI</label>
+            <input type="text" class="form-control" name="Dni" id="Dni" value="@Model.Dni" readonly>
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" id="Email" value="@Model.Email">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Phone" class="form-label">Telefono</label>
+            <input type="text" class="form-control" name="Phone" id="Phone" value="@Model.Phone">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Address" class="form-label">Direccion</label>
+            <input type="text" class="form-control" name="Address" id="Address" value="@Model.Address">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Height" class="form-label">Estatura</label>
+            <input type="text" class="form-control" name="Height" id="Height" placeholder="Ej: 1,74m" value="@Model.Height">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Weight" class="form-label">Peso</label>
+            <input type="text" class="form-control" name="Weight" id="Weight" placeholder="Ej: 79kg" value="@Model.Weight">
+        </div>
+        <div class="mb-3 width-45">
+            <label for="Blood" class="form-label">Grupo sanguineo</label>
+            <input type="text" class="form-control" value="@Model.Blood" name="Blood" id="Blood" readonly />
+        </div>
+        <div class="mb-3 width-45">
+            <label for="IsSmooker" class="form-label">Fuma?</label>
+            <input type="text" class="form-control" value="@Model.IsSmooker" name="IsSmooker" id="IsSmooker" readonly />
+        </div>
+        <div class="mb-3 width-45">
+            <label for="IsDrinker" class="form-label">Bebe?</label>
+            <input type="text" class="form-control" value="@Model.IsDrinker" name="IsDrinker" id="IsDrinker" readonly />
+        </div>
     </div>
-    <div class="mb-3">
-        <label for="Lastname" class="form-label">Apellido</label>
-        <input type="text" class="form-control" name="Lastname" id="Lastname" value="@Model.Lastname">
-    </div>
-    <div class="mb-3">
-        <label for="Dni" class="form-label">DNI</label>
-        <input type="text" class="form-control" name="Dni" id="Dni" value="@Model.Dni">
-    </div>
-    <div class="mb-3">
-        <label for="Email" class="form-label">Email</label>
-        <input type="email" class="form-control" name="Email" id="Email" value="@Model.Email">
-    </div>
-    <div class="mb-3">
-        <label for="Phone" class="form-label">Telefono</label>
-        <input type="text" class="form-control" name="Phone" id="Phone" value="@Model.Phone">
-    </div>
-    <div class="mb-3">
-        <label for="Address" class="form-label">Direccion</label>
-        <input type="text" class="form-control" name="Address" id="Address" value="@Model.Address">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary mt-3 mx-auto w-max">Actualizar</button>
 </form>

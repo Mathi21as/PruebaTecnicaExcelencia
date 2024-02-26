@@ -3,64 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\dtos\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\dtos\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\getbylastname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\getbylastname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\mappers\\mapentitytodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\mappers\\mapentitytodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\models\\patientdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\models\\patientdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\getbylastname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\getbylastname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\models\\patiententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\models\\patiententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\mappers\\mapdtotoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\mappers\\mapdtotoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\deleteget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\deleteget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\patients\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\patients\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|c:\\users\\roman\\documentos\\workspace\\pruebatecnicaexcelencia\\pacientescrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C9AA072-F22B-4C6F-BC4E-801D7FD23A11}|PacientesCRUD\\PacientesCRUD.csproj|solutionrelative:pacientescrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,194 +46,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T02:04:53.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Create.cshtml",
+              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Create.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Create.cshtml",
+              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T01:43:24.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
+              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T01:41:19.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Update.cshtml",
+              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Update.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Update.cshtml",
+              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T01:14:02.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PatientDatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Models\\PatientDatabaseContext.cs",
               "RelativeDocumentMoniker": "PacientesCRUD\\Models\\PatientDatabaseContext.cs",
               "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Models\\PatientDatabaseContext.cs",
               "RelativeToolTip": "PacientesCRUD\\Models\\PatientDatabaseContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAlwBIAAAAiAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAD4vy0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T14:09:42.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Update.cshtml",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Update.cshtml",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Update.cshtml",
-              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T20:13:35.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PacientesCRUD\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T18:13:41.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "PatientsController.cs",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "PacientesCRUD\\Controllers\\PatientsController.cs",
               "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Controllers\\PatientsController.cs",
               "RelativeToolTip": "PacientesCRUD\\Controllers\\PatientsController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAABDAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAASwBkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T21:05:42.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GetByLastname.cshtml",
               "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetByLastname.cshtml",
               "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\GetByLastname.cshtml",
               "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetByLastname.cshtml",
               "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\GetByLastname.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAABUAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-24T17:11:50.496Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAll.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
-              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\GetAll.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T23:48:31.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreatePatientDto.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Dtos\\CreatePatientDto.cs",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Dtos\\CreatePatientDto.cs",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Dtos\\CreatePatientDto.cs",
-              "RelativeToolTip": "PacientesCRUD\\Dtos\\CreatePatientDto.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowB0AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T14:25:40.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Get.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Get.cshtml",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Get.cshtml",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Get.cshtml",
-              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Get.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T15:47:22.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PatientDto.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Dtos\\PatientDto.cs",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Dtos\\PatientDto.cs",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Dtos\\PatientDto.cs",
-              "RelativeToolTip": "PacientesCRUD\\Dtos\\PatientDto.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAvwBQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:18:24.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Create.cshtml",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Create.cshtml",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Create.cshtml",
-              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Create.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T18:49:09.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MapEntityToDto.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Mappers\\MapEntityToDto.cs",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Mappers\\MapEntityToDto.cs",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Mappers\\MapEntityToDto.cs",
-              "RelativeToolTip": "PacientesCRUD\\Mappers\\MapEntityToDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:44:00.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MapDtoToEntity.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Mappers\\MapDtoToEntity.cs",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Mappers\\MapDtoToEntity.cs",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Mappers\\MapDtoToEntity.cs",
-              "RelativeToolTip": "PacientesCRUD\\Mappers\\MapDtoToEntity.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:16:51.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PatientEntity.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Models\\PatientEntity.cs",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Models\\PatientEntity.cs",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Models\\PatientEntity.cs",
-              "RelativeToolTip": "PacientesCRUD\\Models\\PatientEntity.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA5wBoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:21:52.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeleteGet.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\DeleteGet.cshtml",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\DeleteGet.cshtml",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\DeleteGet.cshtml",
-              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\DeleteGet.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T22:28:07.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Error.cshtml",
-              "RelativeDocumentMoniker": "PacientesCRUD\\Views\\Patients\\Error.cshtml",
-              "ToolTip": "C:\\Users\\roman\\Documentos\\workspace\\PruebaTecnicaExcelencia\\PacientesCRUD\\Views\\Patients\\Error.cshtml",
-              "RelativeToolTip": "PacientesCRUD\\Views\\Patients\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T15:56:41.804Z"
             }
           ]
         }
